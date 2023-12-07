@@ -1,0 +1,77 @@
+body  {
+  font-family: DM_Serif_Display;
+  background-color: #fff0c4;
+  text-align: center;
+}
+
+.fade-in-text {
+    font-family: DM_Serif_Display;
+    font-size: 35px;
+    animation: fadeIn 5s;
+    -webkit-animation: fadeIn 5s;
+    -moz-animation: fadeIn 5s;
+    -o-animation: fadeIn 5s;
+    -ms-animation: fadeIn 5s;
+    text-align: center;
+    padding: 1em;
+    padding-left: 5em;
+    padding-right: 5em;
+  }
+  
+  @keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  @-moz-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  @-webkit-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  @-o-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  @-ms-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+
+.green {
+    color: #0f4917;
+    background-color: #66ac70;
+    border: solid 5px #0f4917;
+}
+
+.bitoon {
+  background-color: #bbe081;
+  color: #57683d;
+  max-width: fit-content;
+  text-align: center;
+  padding: .6em;
+  justify-content: center;
+  border-radius: 9px ;
+}
+
+.bitoon:hover {
+  background-color: #8ca85f;
+  color: #374227;
+  
+}
+
+.pink {
+    background-color: #ec7c7e;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    border: solid 5px #b33b3b;
+}
+
+
+
