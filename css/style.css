@@ -59,6 +59,14 @@ body  {
   border-radius: 9px ;
 }
 
+#buttonOne {
+  visibility: hidden;
+}
+
+#buttonThree {
+  visibility: hidden;
+}
+
 .bitoon:hover {
   background-color: #8ca85f;
   color: #374227;
